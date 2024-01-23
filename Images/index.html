@@ -37,18 +37,18 @@
         background: #ff4240;
       }
     </style>
-
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              clifford: "#da373d",
-            },
-          },
-        },
-      };
-    </script>
+           <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                  }
+                }
+              }
+            }
+          </script>
+          
   </head>
 
   <body class="font-manrope">
@@ -791,6 +791,8 @@
         </div>
       </section>
 
+      <!-- get in touch section  -->
+
       <section class="container mx-auto mt-24 ">
         <div class="px-4">
             <h1 class="text-4xl font-extrabold text-center">Get In Touch</h1>
@@ -804,23 +806,94 @@
 
           <!-- the path of contact  -->
 
-          <div>
+          <div class="flex justify-center gap-8 flex-col lg:flex-row mt-20">
 
             <!-- our numebr and email -->
-            <div>
-                <div class="bg-gradient-to-r from-cyan-100 to-cyan-100 px-7 py-10 rounded-lg">
+            <div class="space-y-5  mx-2 lg:mx-0 lg:w-3/6 border-2 border-slate-400 lg:p-12 p-4 rounded-3xl">
+                <div class="bg-gradient-to-r from-cyan-100 to-cyan-50 px-7 py-10 rounded-lg">
                     <img src="./Group 1171275317.png" alt="">
-                    <p>Phone Number : </p>
-                    <h1> (+62) 123-321-543</h1>
+                    <p class="mt-7">Phone Number : </p>
+                    <h1 class="text-bold text-xl"> (+62) 123-321-543</h1>
                 </div>
-                <div></div>
-                <div></div>
+                <div class="bg-gradient-to-r from-yellow-100 to-yellow-50 px-7 py-10 rounded-lg">
+                    <img src="./Group 1171275318.png" alt="">
+                    <p class="mt-7">Phone Number : </p>
+                    <h1 class="text-bold text-xl"> (+62) 123-321-543</h1>
+                </div>
+                <div class="bg-gradient-to-r from-green-100 to-green-50 px-7 py-10 rounded-lg">
+                    <img src="./Group 1171275321.png" alt="">
+                    <p class="mt-7">Phone Number : </p>
+                    <h1 class="text-bold text-xl"> (+62) 123-321-543</h1>
+                </div>
+              
             </div>
 
             <!--user form item column  -->
-            <div></div>
+            <div class=" lg:mx-0 mx-2 ">
+               <form class="" action="">
+               <div class="flex gap-4 lg:flex-row flex-col">
+                <!-- name -->
+                <div class="flex-1 lg:mx-0 mx-auto w-full"> 
+                    <h1 class="text-2xl font-bold ">Your Name</h1>
+                    <input class="py-7 px-3 bg-[#13131808] w-full lg:w-[500px] mt-4 lg:mx-0 rounded-lg" type="text" placeholder="Enter your name">
+                </div>
+                  
+                <!-- email -->
+                <div class="flex-1 lg:mx-0 mx-auto w-full">
+                    <h1 class="text-2xl font-bold   ">Your Email</h1>
+                    <input class="py-7 px-3 bg-[#13131808] w-full lg:w-[500px] mt-4 lg:mx-0 rounded-lg" type="email" placeholder="Enter you email">
+                </div>
+              </div>
+
+              <!-- subject -->
+              <div class="flex gap-4 lg:flex-row flex-col mt-4">
+                <div class="flex-1 lg:mx-0 mx-auto w-full"> 
+                    <h1 class="text-2xl font-bold ">Subject</h1>
+                    <input class="py-7 px-3 bg-[#13131808] w-full lg:w-[500px] mt-4 lg:mx-0 rounded-lg" type="text" placeholder="Enter your subject">
+                </div>
+
+                  <!-- number -->
+                <div class="flex-1 lg:mx-0 mx-auto w-full ">
+                    <h1 class="text-2xl font-bold   ">Phone Number</h1>
+                    <input class="py-7 px-3 bg-[#13131808] w-full lg:w-[500px] mt-4 lg:mx-0 rounded-lg" type="tel" placeholder="Enter your phone number">
+                </div>
+              </div>
+
+              <!-- massage  -->
+              <div class="mt-4">
+                <h1 class="text-2xl font-bold">Message</h1>
+                <textarea class="py-7 px-3 bg-[#13131808] w-full  mt-4 lg:mx-0 rounded-lg"  name="" id="" cols="30" rows="11" placeholder="Write your message"></textarea>
+              </div>
+
+              <!-- submit  -->
+
+              <div class="mt-4 ">
+               
+                <button class=" btn-bg text-white h-20 text-xl  font-bold  mt-4  w-full rounded-lg">Send Message</button>
+               
+            </div>
+                
+            </div>
+
+        
+               </form>
+            </div>
+          </div>
+
+          <!-- social section  -->
+
+          <div class=" mt-12 py-8 bg-[#13131808] rounded-lg">
+            <h1 class="text-4xl font-extrabold text-center">Social</h1>
+            <div class="flex justify-center gap-10 mt-5 text-4xl">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
           </div>
       </section>
     </main>
+
+   
   </body>
 </html>
